@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2fd25ed-f70d-440b-8e98-b484d5c62c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/demo1126/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo1126/ProdConsumer_TraditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo1126/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo1126/SynchronousQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b2fd25ed-f70d-440b-8e98-b484d5c62c3c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +135,7 @@
       <updated>1606184586982</updated>
       <workItem from="1606184588297" duration="6860000" />
       <workItem from="1606357192251" duration="238000" />
-      <workItem from="1606357442281" duration="3661000" />
+      <workItem from="1606357442281" duration="3946000" />
     </task>
     <task id="LOCAL-00001" summary="递归锁（可重入锁）案例&#10;自旋锁案例&#10;读写锁案例&#10;countdownlatch案例">
       <created>1606198586630</created>
@@ -157,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606199035951</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2020.11.26&#10;循环屏障&#10;信号量&#10;阻塞队列（数组、链表、同步的）&#10;多线程通信">
+      <created>1606373507802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606373507802</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +167,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递归锁（可重入锁）案例&#10;自旋锁案例&#10;读写锁案例&#10;countdownlatch案例" />
     <MESSAGE value="2020.11.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.11.24" />
+    <MESSAGE value="2020.11.26&#10;循环屏障&#10;信号量&#10;阻塞队列（数组、链表、同步的）&#10;多线程通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.11.26&#10;循环屏障&#10;信号量&#10;阻塞队列（数组、链表、同步的）&#10;多线程通信" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="214" key="#Deployment" timestamp="1606198947236">
@@ -177,10 +179,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606197996056" />
-    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1606199035284">
+    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1606373506963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606199035284" />
+    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606373506963" />
     <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1606185044192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
