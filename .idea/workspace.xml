@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2fd25ed-f70d-440b-8e98-b484d5c62c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/demo1127/ProdConsumer_BlockQueeuDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo1127/ProdConsumer_BlockQueueDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +138,7 @@
       <workItem from="1606184588297" duration="6860000" />
       <workItem from="1606357192251" duration="238000" />
       <workItem from="1606357442281" duration="4609000" />
-      <workItem from="1606471366570" duration="3737000" />
+      <workItem from="1606471366570" duration="4003000" />
     </task>
     <task id="LOCAL-00001" summary="递归锁（可重入锁）案例&#10;自旋锁案例&#10;读写锁案例&#10;countdownlatch案例">
       <created>1606198586630</created>
@@ -170,7 +168,42 @@
       <option name="project" value="LOCAL" />
       <updated>1606373562436</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+线程通信">
+      <created>1606475195177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606475195177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+线程通信">
+      <created>1606475218375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606475218375</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+多线程通信">
+      <created>1606475252245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606475252245</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+多线程通信">
+      <created>1606475272175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606475272175</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+多线程通信">
+      <created>1606475286284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606475286284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +213,9 @@
     <MESSAGE value="递归锁（可重入锁）案例&#10;自旋锁案例&#10;读写锁案例&#10;countdownlatch案例" />
     <MESSAGE value="2020.11.24" />
     <MESSAGE value="2020.11.26&#10;循环屏障&#10;信号量&#10;阻塞队列（数组、链表、同步的）&#10;多线程通信" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.11.26&#10;循环屏障&#10;信号量&#10;阻塞队列（数组、链表、同步的）&#10;多线程通信" />
+    <MESSAGE value="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+线程通信" />
+    <MESSAGE value="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+多线程通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.11.27&#10;生产消费模式阻塞队列版&#10;volatile+CAS+blockqueue+多线程通信" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="214" key="#Deployment" timestamp="1606198947236">
@@ -191,30 +226,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606471663274" />
-    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1606475271566">
+    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1606475285646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606475271566" />
+    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606475285646" />
     <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1606185044192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606185044192" />
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1606474368304">
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1606475288536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
-    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1606474368304">
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606475288536" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1606475288536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
-    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1606474368304">
+    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606475288536" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1606475288536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
-    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1606474368304">
+    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606475288536" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1606475288536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606475288536" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1606195046893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
