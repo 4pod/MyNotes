@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2fd25ed-f70d-440b-8e98-b484d5c62c3c" name="Default Changelist" comment="" />
+    <list default="true" id="b2fd25ed-f70d-440b-8e98-b484d5c62c3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/demo1127/ProdConsumer_BlockQueeuDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo1127/ProdConsumer_BlockQueueDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,13 +39,13 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.ProdConsumer_TraditionDemo">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo1124.CountDownLatchDemo" />
+  <component name="RunManager" selected="Application.ProdConsumer_BlockQueeuDemo">
+    <configuration name="ProdConsumer_BlockQueeuDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo1127.ProdConsumer_BlockQueeuDemo" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo1124.*" />
+          <option name="PATTERN" value="demo1127.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo1126.CyclicBarrierDemo" />
+    <configuration name="ProdConsumer_BlockQueueDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo1127.ProdConsumer_BlockQueueDemo2" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo1126.*" />
+          <option name="PATTERN" value="demo1127.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProdConsumer_BlockQueeuDemo" />
+        <item itemvalue="Application.ProdConsumer_BlockQueueDemo2" />
         <item itemvalue="Application.ProdConsumer_TraditionDemo" />
         <item itemvalue="Application.SynchronousQueueDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +139,8 @@
       <updated>1606184586982</updated>
       <workItem from="1606184588297" duration="6860000" />
       <workItem from="1606357192251" duration="238000" />
-      <workItem from="1606357442281" duration="3946000" />
+      <workItem from="1606357442281" duration="4609000" />
+      <workItem from="1606471366570" duration="3737000" />
     </task>
     <task id="LOCAL-00001" summary="递归锁（可重入锁）案例&#10;自旋锁案例&#10;读写锁案例&#10;countdownlatch案例">
       <created>1606198586630</created>
@@ -158,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606373507802</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020.11.26&#10;循环屏障&#10;信号量&#10;阻塞队列（数组、链表、同步的）&#10;多线程通信">
+      <created>1606373562436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606373562436</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,42 +187,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="214" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1606198947236" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1606197996056">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1606471663274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606197996056" />
-    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1606373506963">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606471663274" />
+    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1606373561831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606373506963" />
+    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606373561831" />
     <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1606185044192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606185044192" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1606373259667">
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1606474368304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606373259667" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1606373259667">
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1606474368304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606373259667" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1606373259667">
+    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1606474368304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606373259667" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1606373259667">
+    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1606474368304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606373259667" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606474368304" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1606195046893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606195046893" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606199046038">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606373567818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606199046038" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606373567818" />
     <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1606357188486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,9 +231,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="279" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606197714821" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606371538978">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606472781719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606371538978" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606472781719" />
   </component>
 </project>
