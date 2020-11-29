@@ -55,6 +55,8 @@ public class CountDownLatchDemo {
         }
         countDownLatch.await();
         System.out.println(Thread.currentThread().getName() + "\t 秦国，统一华夏");
+        System.out.println(Runtime.getRuntime().availableProcessors());
+
     }
 
     private static void closeDoor() throws InterruptedException {
